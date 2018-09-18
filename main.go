@@ -16,6 +16,7 @@ import (
 
 func main() {
 	//Based on input file vs interactive
+
 	arg := os.Args
 	if len(arg) > 1 {
 		fileName := os.Args[1]

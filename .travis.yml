@@ -1,9 +1,14 @@
 language: go
-go:
-  - 1.9.x
-  - 1.x
+services:
+  - mysql
+before_install:
+  - mysql -e 'CREATE DATABASE IF NOT EXISTS parking_lot'
+  - sudo mysql -e "use mysql; update user set authentication_string=PASSWORD('pasaribu') where User='root'; update user set plugin='mysql_native_password';FLUSH PRIVILEGES;"
+  - sudo service mysql restart
+  - mysql -u root --password="pasaribu" < parking_lot.sql
 before_script:
-  - go get github.com/boantp/parking_lot/config
+  - go get github.com/boantp/parking_lot
+  - go get github.com/go-sql-driver/mysql
   - cd parking
 script:
  - go test -v ./...
