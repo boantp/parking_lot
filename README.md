@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/boantp/parking_lot.svg?branch=master)](https://travis-ci.org/boantp/parking_lot)
 
-![Packagist](https://img.shields.io/packagist/v/symfony/symfony.svg)
+[![Packagist](https://img.shields.io/packagist/v/symfony/symfony.svg)]()
 
 
 ## Getting started
