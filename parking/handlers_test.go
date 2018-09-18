@@ -32,7 +32,7 @@ func TestStatus(t *testing.T) {
 	Park("KA-01-HH-1234", "White")
 	all, _ := AllParkingCar("default", "")
 	if len(all) != 1 {
-		t.Errorf("Status was incorrect, got: %s, want: %s.", len(all), 1)
+		t.Errorf("Status was incorrect, got: %d, want: %d.", len(all), 1)
 	}
 }
 
