@@ -11,7 +11,7 @@ import (
 	"strings"
 	"text/tabwriter"
 
-	"github.com/parking_lot/parking"
+	"github.com/boantp/parking_lot/parking"
 )
 
 func main() {

@@ -2,6 +2,8 @@ language: go
 go:
   - 1.9.x
   - 1.x
-before_script: cd parking
+before_script:
+  - go get github.com/boantp/parking_lot/config
+  - cd parking
 script:
  - go test -v ./...
