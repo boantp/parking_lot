@@ -1,3 +1,7 @@
+#PARKING_LOT
+
+[![Build Status](https://travis-ci.org/boantp/parking_lot.svg?branch=master)](https://travis-ci.org/boantp/parking_lot)
+
 ## Getting started
 
 Follow this step to run application in Golang + MySQL:
