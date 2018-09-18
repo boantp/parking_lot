@@ -4,7 +4,9 @@ go:
   - 1.x
 go_import_path: github.com/boantp
 before_script:
-  - go get github.com/boantp/parking_lot
+  - cd /home/travis/gopath/src/github.com/boantp/parking_lot
+  - rm -rf *
+  - go get -u -v github.com/boantp/parking_lot
   - go run main.go
   - cd parking
 script:
