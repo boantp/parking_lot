@@ -3,8 +3,9 @@ package main
 import (
 	"fmt"
 	"os"
-	"parking_lot/parking"
 	"text/tabwriter"
+
+	"github.com/boantp/parking_lot/parking"
 )
 
 func main() {
