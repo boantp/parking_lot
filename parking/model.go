@@ -3,7 +3,7 @@ package parking
 import (
 	"strconv"
 
-	"github.com/parking_lot/config"
+	"github.com/boantp/parking_lot/config"
 )
 
 type Config struct {
