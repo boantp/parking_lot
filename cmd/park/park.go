@@ -3,7 +3,8 @@ package main
 import (
 	"fmt"
 	"os"
-	"parking_lot/parking"
+
+	"github.com/boantp/parking_lot/parking"
 )
 
 func main() {
