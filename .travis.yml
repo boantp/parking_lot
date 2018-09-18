@@ -2,9 +2,9 @@ language: go
 go:
   - 1.9.x
   - 1.x
-go_import_path: github.com/boantp/
+go_import_path: github.com/boantp
 before_script:
-  - go get github.com/boantp/parking_lot/parking
+  - go get github.com/boantp/parking_lot
   - go run main.go
   - cd parking
 script:
