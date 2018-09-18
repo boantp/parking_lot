@@ -1,8 +1,6 @@
 # PARKING_LOT
 
-[![Build Status](https://travis-ci.org/boantp/parking_lot.svg?branch=master)](https://travis-ci.org/boantp/parking_lot)
-
-[![Packagist](https://img.shields.io/packagist/v/symfony/symfony.svg)]()
+[![Build Status](https://travis-ci.org/boantp/parking_lot.svg?branch=master)](https://travis-ci.org/boantp/parking_lot) [![Packagist](https://img.shields.io/packagist/v/symfony/symfony.svg)]()
 
 
 ## Getting started
